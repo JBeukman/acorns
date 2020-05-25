@@ -2590,18 +2590,8 @@ Blocks Styles
   padding-top: 8px;
 }
 
-.header--2 .shopbox a {
-  background: #f6f6f6 none repeat scroll 0 0;
-  border-radius: 10px;
-  color: #89d700;
-  height: 35px;
-  line-height: 35px;
-  width: 35px;
-  font-size: 18px;
-}
-
 .header--3 .mainmenu__wrapper .mainmenu__wrap .mainmenu__nav .mainmenu > li > a {
-  color: #666666;
+  color: purple;
 }
 
 .header--3 .junior__header__top {
@@ -2764,16 +2754,6 @@ Blocks Styles
   padding-top: 11px;
 }
 
-.header--5 .shopbox a {
-  background: #444444 none repeat scroll 0 0;
-  height: 37px;
-  line-height: 37px;
-  width: 37px;
-}
-
-.header--5 .shopbox a i {
-  color: #fff;
-}
 
 @media only screen and (min-width:768px) and (max-width:991px) {
   .header--2 a.minicart-trigger, .header--3 a.minicart-trigger, .header--5 a.minicart-trigger {
@@ -2791,10 +2771,6 @@ Blocks Styles
 
 }
 
-@media only screen and (max-width:767px) {
-  .header--2 a.minicart-trigger, .header--3 a.minicart-trigger, .header--5 a.minicart-trigger {
-    color: #707070;
-  }
 
   .header--2 .mean-container a.meanmenu-reveal span, .header--3 .mean-container a.meanmenu-reveal span, .header--5 .mean-container a.meanmenu-reveal span {
     background: #707070;
@@ -2810,7 +2786,7 @@ Blocks Styles
     padding-top: 20px;
   }
 
-}
+
 
 @media only screen and (max-width:575px) {
   .header--3 .mainmenu__wrapper {
@@ -2911,7 +2887,7 @@ Blocks Styles
 }
 
 .mainmenu__wrapper .mainmenu__wrap .mainmenu__nav .mainmenu > li > a:hover {
-  color: #89d700;
+  color: purple;
 }
 
 .header--2 .mainmenu__wrapper .mainmenu__wrap .mainmenu__nav .mainmenu > li > a {
@@ -2964,18 +2940,19 @@ Blocks Styles
     text-transform: capitalize;
     -webkit-transition: all 300ms ease 0s;
     transition: all 300ms ease 0s;
-    color: #969696;
+    color: white;
+    background-color: pink;
     display: block;
   }
 
   .mainmenu li.drop:hover > ul.dropdown__menu > li:not(:last-child) {
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom:#f2f2f2;
   }
 
   .mainmenu li.drop:hover > ul.dropdown__menu > li:hover > a {
-    color: #000;
+    color: pink;
     padding-left: 15px;
-    background: #ddd none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
   }
 
 }
@@ -3282,10 +3259,11 @@ Blocks Styles
 }
 
 .slide__carosel.owl-theme .owl-nav [class*="owl-"] {
-  background: pink;
+  background: rgba(250, 160, 160, 0.2);
   border-radius: 100%;
   color: #fff;
   cursor: pointer;
+
 }
 
 .slide__carosel.owl-theme .owl-nav [class*="owl-"] {
@@ -3297,7 +3275,7 @@ Blocks Styles
 }
 
 .slide__carosel.owl-theme .owl-nav [class*="owl-"]:hover {
-  background: purple none repeat scroll 0 0;
+  background: rgba(128, 0, 128, 0.2) none repeat scroll 0 0;
 }
 
 /*--------------------------
@@ -12796,7 +12774,7 @@ footer.footer--2 {
 
 @media only screen and (max-width:767px) {
   .footer__wrapper.bg-image--10 {
-    background-color: #0993cc;
+    background-color: rgb(252, 209, 216);
     background-size: 0 auto;
   }
 
