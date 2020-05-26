@@ -946,14 +946,14 @@ a#scrollUp:hover {
 }
 
 .bg-pngimage--2 {
-  background-image: url();
+  background-image: url(images/slider/Eldwick.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .bg-pngimage--3 {
-  background-image: url();
+  background-image: url(images/slider/Harrogate.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -2534,7 +2534,7 @@ Blocks Styles
   top: 100%;
   left: 0;
   background-color: pink;
-  /*background: url(images/icons/line-2.png) no-repeat scroll center top; need a pink image*/
+  background: url(images/icons/line-2.png) no-repeat scroll center top;
   content: "";
   height: 17px;
   width: 100%;
@@ -12846,6 +12846,7 @@ footer.footer--2 {
   max-width: 100px;
   z-index: -1;
   text-align: center;
+  
   
 }
 
