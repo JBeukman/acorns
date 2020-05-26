@@ -947,8 +947,9 @@ a#scrollUp:hover {
 
 .bg-pngimage--2 {
   background-image: url(images/slider/Eldwick.png);
+  display: flex;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
 }
 
@@ -2991,7 +2992,7 @@ Blocks Styles
   Slider Area
 =================================*/
 .slide .slide__inner h1 {
-  background: purple;
+  background: rgba(131, 3, 131, 0.3);
   color: #ffffff;
   display: inline-block;
   font-family: 'Bubblegum Sans', cursive;
@@ -3007,7 +3008,7 @@ Blocks Styles
 }
 
 .slide .slide__inner .slider__text h2 {
-  background: purple;
+  background: rgba(138, 13, 138, 0.3);
   color: #ffffff;
   font-family: 'Bubblegum Sans', cursive;
   font-size: 48px;
@@ -3792,6 +3793,7 @@ Blocks Styles
 }
 
 .junior__welcome__area {
+  
   overflow: hidden;
 }
 
