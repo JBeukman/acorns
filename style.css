@@ -2992,7 +2992,7 @@ Blocks Styles
   Slider Area
 =================================*/
 .slide .slide__inner h1 {
-  background: rgba(131, 3, 131, 0.3);
+  background: rgba(131, 3, 131, 0.1);
   color: #ffffff;
   display: inline-block;
   font-family: 'Bubblegum Sans', cursive;
@@ -3008,7 +3008,7 @@ Blocks Styles
 }
 
 .slide .slide__inner .slider__text h2 {
-  background: rgba(138, 13, 138, 0.3);
+  background: rgba(138, 13, 138, 0.1);
   color: #ffffff;
   font-family: 'Bubblegum Sans', cursive;
   font-size: 48px;
