@@ -77,9 +77,9 @@
             c +
             '<span class="moreellipses">' +
             ellipsestext +
-            '&nbsp;&nbsp;<a href="" class="moreless more">more</a></span></span></div><div class="truncate-text" style="display:none">' +
+            '&nbsp;&nbsp;<a href="" class="moreless more" style="color: red;">Read more</a></span></span></div><div class="truncate-text" style="display:none">' +
             h +
-            '<a href="" class="moreless less">Less</a></span></div>';
+            '<a href="" class="moreless less" style="color: red;">See less</a></span></div>';
 
           $(this).html(html);
         }
