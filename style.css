@@ -939,9 +939,10 @@ a#scrollUp:hover {
 
 /* Background Image */
 .bg-pngimage--1 {
-  background-image: url(images/slider/back.jpg);
+  background-image: url(images/slider/Gallery.png);
+  display: flex;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
 }
 
@@ -955,8 +956,9 @@ a#scrollUp:hover {
 
 .bg-pngimage--3 {
   background-image: url(images/slider/Harrogate.png);
+  display:flex;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
 }
 
@@ -4632,7 +4634,8 @@ Blocks Styles
   Gallery Area
 ===========================*/
 .gallery {
-  
+  border: 1px solid #fff;
+  border-radius: 5px;
   margin-top: 40px;
   overflow: hidden;
   position: relative;
@@ -7869,7 +7872,10 @@ h3.widget-title-modal {
 }
 
 .ht__bradcaump__container img {
-  max-width: inherit;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
 }
 
 .ht__bradcaump__container .bradcaump__inner {
@@ -7884,6 +7890,7 @@ h3.widget-title-modal {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding-bottom: 8px;
+  
 }
 
 .ht__bradcaump__container .bradcaump__inner h2 {
