@@ -1011,6 +1011,14 @@ a#scrollUp:hover {
   background-position: center center;
 }
 
+.bg-pngimage--30 {
+  background-image: url(images/slider/back1.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 /* Separator */
 .mt--30 {
   margin-top: 30px;
