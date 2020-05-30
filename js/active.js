@@ -64,7 +64,7 @@
   /*Trancate*/
   $(document).ready(function () {
     (function () {
-      var showChar = 400;
+      var showChar = 200;
       var ellipsestext = "...";
 
       $(".truncate").each(function () {
