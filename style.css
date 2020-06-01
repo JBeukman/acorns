@@ -3292,7 +3292,7 @@ Blocks Styles
 }
 
 .slide__carosel.owl-theme .owl-nav [class*="owl-"] {
-  background: rgba(250, 160, 160, 0.2);
+  background: rgba(200, 200, 200, 0.4);
   border-radius: 100%;
   color: #fff;
   cursor: pointer;
@@ -3308,7 +3308,7 @@ Blocks Styles
 }
 
 .slide__carosel.owl-theme .owl-nav [class*="owl-"]:hover {
-  background: rgba(128, 0, 128, 0.2) none repeat scroll 0 0;
+  background: rgba(250, 0, 250, 0.6) none repeat scroll 0 0;
 }
 
 /*--------------------------
@@ -3350,8 +3350,8 @@ Blocks Styles
 }
 
 .slide__carosel .slider__btn .dcare__btn {
-  -webkit-animation-delay: 1.5s;
-  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.0s;
+  animation-delay: 1.0s;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }

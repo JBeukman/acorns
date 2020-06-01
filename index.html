@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/plugins.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fakeloader.css">
 
 	<!-- Cusom css -->
 	<link rel="stylesheet" href="css/custom.css">
@@ -29,13 +30,8 @@
 </head>
 
 <body>
-	<!--[if lte IE 9]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-	<![endif]-->
-
-	<!-- Add your site or application content here -->
-
-	<!-- <div class="fakeloader"></div> -->
+	
+	 <div class="fakeloader"> 
 
 	<!-- Main wrapper -->
 	<div class="wrapper" id="wrapper">
@@ -758,6 +754,19 @@
 	</div><!-- //Main wrapper -->
 
 	<!-- JS Files -->
+	<script type="text/javascript">
+
+
+    $("#fakeLoader").fakeLoader({
+
+            timeToHide:1200, //Time in milliseconds for fakeLoader disappear
+            zIndex:999, // Default zIndex
+            spinner:"spinner1",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7' 
+            bgColor:"#2ecc71", //Hex, RGB or RGBA colors
+            imagePath:"yourPath/customizedImage.gif" //If you want can you insert your custom image
+
+    });
+     </script>
 	<script src="js/vendor/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
