@@ -1750,6 +1750,8 @@ Elements Styles
   margin-bottom: 23px;
   padding-bottom: 45px;
   position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
 }
 
 .section__title h2.title__line::before {
@@ -1778,6 +1780,8 @@ Elements Styles
   font-weight: 300;
   line-height: 25px;
   padding: 0 22%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
 }
 
 .section__title.white--title h2.title__line {
