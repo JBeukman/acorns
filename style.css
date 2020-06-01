@@ -1037,7 +1037,7 @@ a#scrollUp:hover {
   background-image: url(images/slider/Front\ Area.png);
   display: flex;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-position: center center;
 }
 
