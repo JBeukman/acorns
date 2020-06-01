@@ -946,6 +946,28 @@ a#scrollUp:hover {
   background-position: center center;
 }
 
+.bg-pngimage--20 {
+  background-image: url(images/slider/Acornsb.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+.bg-pngimage--21 {
+  background-image: url(images/slider/Acornsb1.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+.bg-pngimage--22 {
+  background-image: url(images/slider/Acornsb2.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
 .bg-pngimage--2 {
   background-image: url(images/slider/Eldwick.png);
   display: flex;
@@ -2886,7 +2908,7 @@ Blocks Styles
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: blue;
+  color: #3C1053FF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2898,7 +2920,7 @@ Blocks Styles
 }
 
 .mainmenu__wrapper .mainmenu__wrap .mainmenu__nav .mainmenu > li > a:hover {
-  color: purple;
+  color: #fff;
 }
 
 .header--2 .mainmenu__wrapper .mainmenu__wrap .mainmenu__nav .mainmenu > li > a {
@@ -2951,7 +2973,7 @@ Blocks Styles
     text-transform: capitalize;
     -webkit-transition: all 300ms ease 0s;
     transition: all 300ms ease 0s;
-    color: blue;
+    color: #3C1053FF;
     background-color: pink;
     display: block;
   }
