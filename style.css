@@ -1034,10 +1034,10 @@ a#scrollUp:hover {
 }
 
 .bg-pngimage--30 {
-  background-image: url(images/slider/back1.jpg);
+  background-image: url(images/slider/Front\ Area.png);
   display: flex;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
 }
 
