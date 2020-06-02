@@ -686,7 +686,7 @@ a#scrollUp:hover {
 }
 
 .bg__cat--1 {
-  background: pink;
+  background-image: linear-gradient(15deg, #fff 0%, #e75480 100%);
 }
 
 .bg__cat--2 {
@@ -2596,7 +2596,8 @@ Blocks Styles
 }
 
 .header--one .sticky__header.is-sticky {
-  background: pink none repeat scroll 0 0;
+  background-image: linear-gradient(15deg, #ffe1e1 0%, #fff 100%);
+  background: linear-gradient(15deg, #ffe1e1 50%, #fff 50%) none repeat scroll 0 0;
 }
 
 .header--2 .junior__header__top {
