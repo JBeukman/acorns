@@ -2571,7 +2571,7 @@ Blocks Styles
   top: 100%;
   left: 0;
   background-color: pink;
-  background: url(images/icons/line-2.png) no-repeat scroll center top;
+  background: url(images/icons/line-5.png) no-repeat scroll center top;
   content: "";
   height: 17px;
   width: 100%;
@@ -12621,7 +12621,8 @@ footer.footer--2 {
 }
 
 .footer__contact__wrapper .single__footer__address .ft__contact__icon::before {
-  background-image: url("images/shape/star/1.png");
+  background-color: green;
+  border-radius: 50%;
   content: "";
   height: 46px;
   position: absolute;
@@ -12630,7 +12631,7 @@ footer.footer--2 {
 }
 
 .footer__contact__wrapper .single__footer__address .ft__contact__icon i {
-  color: white;
+  color: pink;
   font-size: 26px;
   left: 50%;
   position: absolute;
