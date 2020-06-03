@@ -984,10 +984,11 @@ a#scrollUp:hover {
   background-position: center center;
 }
 
-.bg-pngimage--4 {
-  background-image: url();
+.bg-pngimage--5 {
+  background-image: url(images/slider/outofschool.png);
+  display: flex;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
 }
 
