@@ -3706,6 +3706,7 @@ Blocks Styles
 .jn__welcome__wrapper .jnr__Welcome__thumb {
   position: relative;
   margin-right: -28px;
+  margin-left: 98px;
 }
 
 .jn__welcome__wrapper .jnr__Welcome__thumb a.play__btn {
@@ -3717,7 +3718,7 @@ Blocks Styles
   -webkit-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
   z-index: 2;
-  margin-left: 19px;
+  margin-left: 0px;
 }
 
 .jn__welcome__wrapper .jnr__Welcome__thumb a.play__btn i {
