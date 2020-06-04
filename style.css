@@ -10113,7 +10113,7 @@ h3.widget-title-modal {
 }
 
 .page__contact .address .ct__icon i {
-  background: #fff none repeat scroll 0 0;
+  background: purple none repeat scroll 0 0;
   -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
   height: 85px;
@@ -10123,7 +10123,7 @@ h3.widget-title-modal {
   top: 0;
   width: 85px;
   border-radius: 100%;
-  color: purple;
+  color: #fff;
   font-size: 30px;
 }
 
