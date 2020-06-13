@@ -114,6 +114,10 @@ html, button, input, select, textarea {
 }
 
 body {
+  background-image: url(images/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #141412;
   line-height: 1.5;
   margin: 0;
