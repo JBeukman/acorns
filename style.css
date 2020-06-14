@@ -692,7 +692,7 @@ a#scrollUp:hover {
 }
 
 .bg__cat--1 {
-  background-image: linear-gradient(15deg, #fff 0%, #e75480 100%);
+  background-image: rgba(0, 0, 0, 0,);
 }
 
 .bg__cat--2 {
@@ -2595,7 +2595,7 @@ Blocks Styles
 .sticky__header.is-sticky {
   -webkit-animation: 0.4s ease-in-out 0s normal both 1 running fadeInDown;
   animation: 0.4s ease-in-out 0s normal both 1 running fadeInDown;
-  background: #fff none repeat scroll 0 0;
+  background: rgba(252, 251, 251, 0.7) none repeat scroll 0 0;
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   left: 0;
@@ -2610,8 +2610,8 @@ Blocks Styles
 }
 
 .header--one .sticky__header.is-sticky {
-  background-image: linear-gradient(15deg, #ffe1e1 0%, #fff 100%);
-  background: linear-gradient(15deg, #ffe1e1 50%, #fff 50%) none repeat scroll 0 0;
+  background-image: rgba(0, 0, 0, 0);
+ 
 }
 
 .header--2 .junior__header__top {
@@ -2993,7 +2993,7 @@ Blocks Styles
     -webkit-transition: all 300ms ease 0s;
     transition: all 300ms ease 0s;
     color: #3C1053FF;
-    background-color: pink;
+    background-color: rgba(247, 196, 204, 0.1);
     display: block;
   }
 
@@ -3002,9 +3002,9 @@ Blocks Styles
   }
 
   .mainmenu li.drop:hover > ul.dropdown__menu > li:hover > a {
-    color: pink;
+    color: #fff;
     padding-left: 15px;
-    background: purple none repeat scroll 0 0;
+    background: greenyellow none repeat scroll 0 0;
   }
 
 }
